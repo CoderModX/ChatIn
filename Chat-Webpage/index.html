@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon_temp.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/2746e1c96b.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+        </style>
+
+    <title>ChatIn</title>
+</head>
+<body onload="javascript:hidea(); javascript:hidef();">
+
+    <!--Icon; Download, About, Feature buttons-->
+    <div class="top_page vertical-center">
+        <div>
+            <img src="chatin_icon.png" alt="chatin icon" class="icon">
+            <p class="tagline">Connect with your loved ones in a go!</p>
+            
+            <!-- TODO add link below for donwloading apk file in href -->
+            <a href="app-debug.apk" class="buttons mob_ver_down" download="chatin.apk"><i class="fas fa-download"></i> DOWNLOAD</a>
+            <p>supports android 5+</p>
+        </div>
+
+        <div>
+            <table class="center button_table" id="table_id" align="center">
+                <tr>
+                    <td>
+                        <a class="buttons buttons_edit mob_ver_but" id="about_button" ><i class="fas fa-info-circle"></i> About</a>
+                    </td>
+                    <td>
+                        <a class="buttons buttons_edit mob_ver_but" id="feature_button"><i class="fas fa-plus"></i>  Features</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!--features-->
+    <div class="feature" id="feature_text">
+        <table class="feature-table center">
+            <tr>
+                <td><i class="far fa-comment-dots"></i></td>
+                <td class="feature-head">Messaging</td>
+                <td>- Send and Receive messages with users 
+                    <br>
+                    - Send pictures
+                </td>
+            </tr>
+            <tr>
+                <td><i class="fas fa-list-ul"></i></td>
+                <td class="feature-head">Lists</td>
+                <td>
+                    - Your Requests <br>
+                    - Your Messages <br>
+                    - Your Friends 
+                </td>
+            </tr>
+            <tr>
+                <td><i class="fas fa-user-friends"></i></td>
+                <td class="feature-head">Friends</td>
+                <td>
+                    - Accept or Remove Friends
+                </td>
+            </tr>
+            <tr>
+                <td><i class="fas fa-spinner"></i></td>
+                <td class="feature-head">Requests</td>
+                <td>
+                    - Send or Cancel Friend Request to users
+                </td>
+            </tr>
+            <tr>
+                <td><i class="fas fa-users"></i></td>
+                <td class="feature-head">Profile</td>
+                <td>
+                    - Update your Profile Picture <br>
+                    - Update your Status <br>
+                    - Update your Cover Picture <br>
+                    - View other users profile
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!--about-->
+    <div class="about" id="about_text">
+        <table class="about-table center">
+            <tr>
+                <td class="about-head">ChatIn:</td>
+            </tr>
+            <tr>
+                <td> 
+                    Chatting is now-a-days very useful to express our ideas as well as receive others'. Chats reflect the recent trends of the society. ChatIn is an application which allows users to connect one-on-one or group via enabling them to chat with their peers and enabling many features.
+                </td>
+            </tr>
+            
+        </table>
+        
+
+    </div>
+
+    <!--footer with names and github source code-->
+    <div class="footer-page">
+        © 2021 TeamBLUE | Contribute @Github
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
