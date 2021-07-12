@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "108556033274",
+    "firebase_url": "https://chatin-b374d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "chatin-b374d",
+    "storage_bucket": "chatin-b374d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108556033274:android:aaefc402dfbdd24fddfd43",
+        "android_client_info": {
+          "package_name": "com.chatin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108556033274-92pg1rtdmpgba1k6ere228qrg6i5s2ku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chatin",
+            "certificate_hash": "ca6cb8ee9247ada2cf0232d07393f39082be1f3b"
+          }
+        },
+        {
+          "client_id": "108556033274-astvn560v9g8ep2037378tdueh4ghjbo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHqDsoLT9XnUn8g7IK4adyfBrWLdzV1jo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108556033274-astvn560v9g8ep2037378tdueh4ghjbo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
